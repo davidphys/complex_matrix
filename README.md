@@ -6,7 +6,7 @@ Compilation instructions:
 
 `g++ -o main main.cpp` takes main.cpp, compiles it into a program, and saves it to a file called "main".
 
-`./main >> out.txt` runs main, and pipes all of its text output to a file called out.txt.
+`./main > out.txt` runs main, and pipes all of its text output to a file called out.txt.
 
 `python plot.py` runs the python file plot.py, which outputs an image of the wavefunction over time.
 
