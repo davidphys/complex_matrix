@@ -10,8 +10,15 @@ Compilation instructions:
 
 `python plot.py` runs the python file plot.py, which outputs an image of the wavefunction over time.
 
+You should see the following image generated:
+
+![Rotating spin 1/2 particle plot](plot.png)
+
 Physics of what's going on
 ---
+
+![](latexcode.png)
+
 
 I chose the rotation of a spin $\frac{1}{2}$ particle as an example problem where I raise a $2\times 2$ matrix to the $N^{th}$ power. For your homework,
 you'll be raising a $600\times 600$ matrix to the $N^{th}$ power!
