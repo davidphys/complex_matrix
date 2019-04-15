@@ -21,23 +21,6 @@ Physics of what's going on
 
 ![](latexcode.png)
 
-
-I chose the rotation of a spin $\frac{1}{2}$ particle as an example problem where I raise a $2\times 2$ matrix to the $N^{th}$ power. For your homework,
-you'll be raising a $600\times 600$ matrix to the $N^{th}$ power!
-
-I wanted to simulate rotating an electron about the $\hat{x}$
-axis by an angle theta. 
-This is realized by the operator $U(\theta)=e^{i \frac{\theta}{2}\sigma_x}$. 
-Exponentiation can be approximated by $e^x\approx \left(1+\frac{x}{N}\right)^N$ for large $N$, so the complex matrix that we'll raise to the $N^{th}$ power
-is $1+\frac{i\theta \sigma_x}{2N}$.
-
-Finally, we want to measure operators like the position operator $\hat{x}$. 
-
-If I start a particle in the state $|\uparrow\rangle$ and define 
-$\hat{x}=|\uparrow\rangle\langle\uparrow|-|\downarrow\rangle\langle\downarrow|$,
-then $\langle \hat{x}\rangle$ will just be $|\langle \uparrow|U|\uparrow\rangle|^2-|\langle \downarrow|U|\uparrow\rangle|^2$. If $U$ is a matrix, then this is just
-$|U_{11}|^2-|U_{21}|^2$. If U is a matrix in row major format, then this is `norm(U[0])-norm(U[2])`.
-
 Makefile instructions
 ---
 
