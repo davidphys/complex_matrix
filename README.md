@@ -1,6 +1,8 @@
 Complex Matrix Example Code
 ===
 
+Based off my code at [my website](http://dkmoore.physics.ucsd.edu/2018-04-16/Matrix/)
+
 Compilation instructions: 
 ---
 

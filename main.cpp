@@ -37,17 +37,19 @@ int main() {
     for(int n=0;n<N;n++){
         matrix=matrixMultiply(m0,matrix);
 	
+
+	//Print some output in a nice format.
+	double angle=n*(2*3.1415926)/N;
+
 	//norm returns the squared magnitude, see https://en.cppreference.com/w/cpp/numeric/complex
 	//For an explanation of why this gives <x>, see the readme.
-
-	double angle=n*(2*3.1415926)/N;
 	double position=(norm(matrix[0])-norm(matrix[2]));
+
+	//Command from the same cppreference.com page. 
 	double realpart=real(matrix[0]); //Re(<up|psi>)
+
 	cout<<angle<<"\t"<<position<<"\t"<<realpart<<endl;
     }
-    //Print the matrix in a readable format.
-    /* cout<<"["<<matrix[0]<<"\t"<<matrix[1]<<"]"<<endl;
-    cout<<"["<<matrix[2]<<"\t"<<matrix[3]<<"]"<<endl;*/
     return 0;
 }
 

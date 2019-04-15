@@ -1,3 +1,11 @@
+#Good example matplotlib plots are at:
+#https://matplotlib.org/api/_as_gen/matplotlib.pyplot.legend.html
+#https://matplotlib.org/gallery/lines_bars_and_markers/simple_plot.html
+#Google is your friend here! If you don't know how to do X, google 
+#"how to do X in matplotlib", or ask me, or ask a question on stackexchange.com.
+#Be sure to cite your code if you copied and pasted a significant amount of someone 
+#else's code (you don't have to cite documentation you use though)
+
 import matplotlib.pyplot as plt
 import pylab
 
