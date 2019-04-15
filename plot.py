@@ -21,7 +21,7 @@ realpart=data[:,2]
 
 fig, ax = plt.subplots()
 ax.plot(angles,positions,label='$\\langle x\\rangle$')
-ax.plot(angles,realpart,label='$\\operatorname{Re}(\\langle x|\psi\\rangle )$')
+ax.plot(angles,realpart,label='$\\operatorname{Re}(\\langle \uparrow|\psi\\rangle )$')
 
 ax.set(xlabel='$\\theta$ (rads)',
        title='Position vs. angle plot')
